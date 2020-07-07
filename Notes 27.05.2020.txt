@@ -1,0 +1,33 @@
+Characteristics of OOPS
+	Abstraction
+		Showing relavant information to user(information required by the user)
+	Encapsulation
+		Hiding unneccessary information from the user
+	Polymorphism
+		Greek words
+		Poly->Many
+		Morphos->Forms
+		single object/method in many forms
+	Inheritance
+		Reusing the properties of existing class
+		types:
+			Single
+				One parent<-One child
+			Multiple
+				Many Parent<-one child
+			Multi-Level
+				A<--B<--C indirectly A<--C
+			Hybrid
+				Many Parent<--many children
+			Network/hierarchy
+				One parent<--Many children
+
+Advantages of OOPS
+	Realistic Modelling
+	Reusability
+	Modularity(loose Coupling)
+	Flexibility(Resilience) to change
+	information hiding(helps to secure your application)
+
+IDE(Integrated Development Environment)
+Eclipse

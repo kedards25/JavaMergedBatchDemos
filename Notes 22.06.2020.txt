@@ -1,0 +1,12 @@
+messages.properties
+	msg="hello"
+messages_fr_FR.properties
+	msg="bonjour"
+messages_en_ES.properties
+	msg="ola"
+
+
+Generics help you to declare one variable with dynamic data type
+To declare generic data type we have to use diamond operator in program with generic data type symbol
+
+IN order to implement encapsulation in program,we should declare variables as private and methods to access variables as public

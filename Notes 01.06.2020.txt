@@ -1,0 +1,24 @@
+Constructor
+	*Constructor is a special method used to initialize member 		variables at runtime(dynamically)
+	*Constructor has name same as that of class name
+	DemoP==>DemoP(){}
+	*Constructor need not to be invoked explicitly but
+	are invoked automatically as soon as object of the class is 	created
+	*Constructor cannot have any logic within
+	*hence constructor cannot return a value
+	*Constructor can have access specifier
+	*Constructor cannot be inherited
+
+
+
+Inheritance
+	Using the properties of existing class in another class
+
+	Single Inheritance
+	Multiple Inheritance
+	Multi-Level Inheritance
+
+	In Java only single inheritance is supported in case of 	classes
+	
+	DemoP
+	SingleInheritanceDemo

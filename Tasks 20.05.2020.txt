@@ -1,0 +1,28 @@
+WAP(write a program)
+1.WAP to calculate velocity v=u+at
+=>initial speed
+=>acceleration
+=>time
+
+2.Accept weight of the person on earth and calculate weight on moon
+
+3.WAP to accept two numbers from the user and swap them and display
+x=5,y=7
+
+x=7,y=5
+
+with and without third variable
+
+4.WAP to calculate the area of circle and volume of cylinder by accepting required parameters
+
+5.WAP to accept two values from user and display the greatest
+
+6.WAP to accept three values from user and display the greatest
+
+7.Accept any character and check if it is a vowel or a consonent
+	i.by implementing nested else..if
+	ii.by implementing  simple if..else
+
+8.WAP to display all the even no from 1-100
+
+9.WAP to display sum of digits of given number=>7239->7+2+3+9=21

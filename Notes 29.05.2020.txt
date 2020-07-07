@@ -1,0 +1,32 @@
+String is a class and a data type both
+
+String as a data type is a reference type
+
+Object of String class can be treated as an object
+
+String is immutable class
+	immutable=>not changing
+	if an object of String class is assigned a value
+	it cannot be assigned with new value(cannot be overwritten)
+	it will allocate a new memory and old value still be there in 	memory
+
+but reference variables of String class are mutable
+
+	String str=new String("Kedar");
+	str=new String("Adwait");
+
+/*Conventions to follow while creating a project*/
+package name should be provided in lowercase
+class name should be written in UpperCamelCase
+variables,methods should be written in lowerCamelCase
+Constants should be written in UPPERCASE
+Object name should be same as that of class name in lowerCamelCase
+
+
+ASCII
+American Standard Code for Information Interchange
+
+A-Z	65-90
+a-z	97-122
+
+

@@ -1,0 +1,22 @@
+Types of errors
+	Compile Time(Syntax Error)=>misplaced or missing ,;""{[
+	Logical Error	=>e.g for program of addition we are using *
+	Runtime Error	=>Errors that may occur at runtime
+				errors may or may not occur
+
+To handle runtime errors we should use try...catch block
+we should put the code which may generate an error in try block
+and try to execute
+if there is an error an exception will be raised and the same will be handled by catch block
+		
+checked exceptions are the ones which may occur at runtime and
+compiler is aware of and it prompts us to handle that error while writing the code
+
+unchecked exceptions are the ones which may occur at runtime and
+compiler is unaware of and it will not prompt us to handle that error while writing the code
+
+in case we do not know the exact exception being thrown
+we can throw an object of parent class of all exceptions ie exception class which wraps all the objects of exception class
+
+in order to close the external resources which we have opened irrespective of error we should use finally block
+finally block executes irrespective of error

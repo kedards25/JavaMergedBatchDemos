@@ -1,0 +1,43 @@
+package com.learning.collectionsdemo;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.ListIterator;
+
+public class NumListDemo {
+
+	Integer num1,num2,num3,num4,num5;
+	List<Integer> numList;
+	void createObjects()
+	{
+		num1=new Integer(102);
+		num2=new Integer(103);
+		num3=new Integer(104);
+		num4=new Integer(105);
+		num5=new Integer(104);
+	}
+	
+	void addNums() {
+		numList=new ArrayList();
+		
+		//numList is of type Integer
+		//hence it will accept int values
+		numList.add(new Integer(101));
+		numList.add(num1);
+		numList.add(num2);
+		numList.add(num3);
+		numList.add(num4);
+		
+	}
+	
+	void showNums()
+	{
+		ListIterator<Integer> numIterator=numList.listIterator();
+		while(numIterator.hasNext())
+		{
+			System.out.println(numIterator.next());
+		}
+	}
+	
+		
+}

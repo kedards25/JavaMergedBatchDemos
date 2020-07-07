@@ -1,0 +1,45 @@
+OOPS
+	based Objects and Classes
+
+	Objects
+		real world entity around us
+	
+	How to recognise an object?
+	Object has
+
+	General			OOPS		Program
+	Properties/Attributes  	State		Variable
+	Functionality		Behavior	Methods
+	Unique			identity	constants
+	
+	two objects can have same state and behavior but will never 	have same identity
+
+
+	Class
+	Collection of objects with same state and behavior
+	Objects belonging to particular class will exhibit all the 
+	state and behavior of the class
+
+	Two objects can communicate with each other through messages
+	action performed by an object in response to the message of 	another object is called as method/function
+
+	Relationships between objects
+	Composition Relationship
+		One object composed of another object
+		has-a	part-of
+
+	Utilisation Relationship
+		One object utilises another object
+		uses,consumes
+
+	Instantiation Relationship
+		One object is an instance of class
+		is-a  kind-of
+
+	Generalisation Relationship( Opp of Specialization)
+		Keeping common things together that all objects perform
+		which further can be customized
+		
+
+
+	

@@ -1,0 +1,101 @@
+In order to store values with multiple data types we should create a class with variables with multiple data types and then we should store objects of the class in a collections
+
+Collections is set of objects stored together and not the primitive data types
+
+class Demo
+{
+
+	String name;
+	int id;
+	double Marks;
+
+
+}
+
+Demo d1=new Demo();
+//setting values of variables using setter methods
+Demo d2=new Demo();
+//setting values of variables using setter methods
+Demo d3=new Demo();
+//setting values of variables using setter methods
+Demo d4=new Demo();
+//setting values of variables using setter methods
+Demo d5=new Demo();
+//setting values of variables using setter methods
+
+
+//now object of collection class will hold reference to 
+//objects of type Demo
+//if we are passing numeric values then we will pass Integer type
+//in order to hold reference to objects of the class we are passing //class type
+Collection<Demo> collection=new Collection();
+collection.add(d1)
+collection.add(d2)
+collection.add(d3)
+collection.add(d4)
+collection.add(d5)
+
+//to display values using an iterator
+//for each object of Demo class in collection
+for(Demo d:collection)
+{
+	sout(d.getName());
+	sout(d.getId());
+	sout(d.getMarks());
+}
+
+
+Integer is a wrapper class which wraps primitive data type int as its object
+
+Demo<Sample> demo=new Demo();
+//in above declaration demo will hold reference to all the objects of 
+//Sample class
+
+
+Collections in an interface
+Types of Collections
+	List
+		holds reference to objects based on the index
+		Duplicate values are allowed
+		data is not sorted
+	Set
+		holds reference to objects based on their values
+		Duplicate values are not allowed
+		data is sorted		
+	Map
+		holds reference to objects based on the key value 			pair
+		where value can be fetched based on given key
+		Keys can be sorted
+	Stack
+		Works on LIFO principle
+	Queue
+		Works on FIFO principle
+	Dequeue
+		stands for Double Ended queue
+		can be operated from any side
+		can be treated as stack or queue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

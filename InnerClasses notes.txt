@@ -1,0 +1,21 @@
+Limitations of inheritance
+	Parent cannot access child properties
+	
+	Child class cannot inherit parent's private properties
+
+
+To overcome the limitations of inheritance we have a feature called as inner classes or nested classes
+Inner classes:
+	Inner classes are the ones which are defined within body of 	parent class
+
+Static Nested class:
+	If members of innerClasses are declared with static modifier,
+	then the class is called as Static Nested class
+
+Method Local InnerClasses:
+	Method Local InnerClasses are the ones which are declared 	within the body of method in parent class
+
+Anonymous Class
+	Anonymous classes are the ones where one of the class is 	unknown,basically this unknown class is accessed from default 	package i.e. java.lang
+	Compiler expects two classes in program but does not get it
+	so it creates .class file for anonymous class with the same 	name as that of className but with $1 suffix.

@@ -1,0 +1,30 @@
+package com.learning.hashsetdemo;
+
+import java.util.Iterator;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class HashSetDemo {
+
+	//set interface works on values instead of indexes
+		//hence it does not allow duplicate values
+		//TreeSet sorts the values by default
+		public static void main(String[] args) {
+			Set<String> treeSet=new TreeSet<String>();
+
+			//String will be sorted alphabetically
+			treeSet.add("One");
+			treeSet.add("Four");
+			treeSet.add("Three");
+			treeSet.add("Two");
+			treeSet.add("Five");
+			
+			Iterator<String> iterator=treeSet.iterator();
+			
+			while(iterator.hasNext())
+			{
+				System.out.println(iterator.next());
+			}
+			
+		}
+}

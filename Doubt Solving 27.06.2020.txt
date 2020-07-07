@@ -1,0 +1,140 @@
+Enum
+Constructor
+Exception
+File IO
+Anonymous class
+Generic
+===================================================================
+Enum(Enumeration) helps you to give user a choice to choose from provided set of values
+
+====================================================================
+Constructors should be used when we want values to be assigned to 
+variables at runtime based on object
+on Creation of new object new values can be passed to constructor in order to initialize variables
+*Constructor is a special method used to initialize member variables  at runtime
+*has same name as class name
+*can have access specifiers
+*cannot have logic within hence cannot return a value
+*invoked as soon as obj is created
+*cannot be inherited
+*A constructor can be overloaded
+*if we do not create any constructor in our code call to the  default constructor is given automatically by compiler
+*if you do not want values to be tampered from out side the class
+ we can declare constructor private and empty
+	e.g.public class Demo
+	    {
+  		private Demo(){}
+	    }
+*in case of inheritance constructors are invoked from base to  derived
+*parent class constructor can be accessed in child by using "super()" keyword
+*in case of no-arg constructor defined in child class,call to the  no-arg constructor from parent is given automatically by compiler
+ without mentioning super() keyword
+*in case of parameterized constructor defined in child class,values   to the parameterized constructor from parent have to be passed from  child class constructor by using super() keyword
+*super() has to be the first statement in child class constructor
+ class DemoP
+ {
+	int num
+	DemoP(int m)
+	{
+		num=m;	
+	}
+ }
+ class DemoC
+ {
+	int val
+	DemoC(int x,int y)
+	{
+		val=x
+	}
+ }
+ PSVM()
+ {
+	DemoC demoC=new DemoC(5,10);
+ }
+====================================================================
+Exception
+There might be a possibililty of a case where code may or may not throw an error
+when an error occurs exception is raised/thrown 
+In such scenarios we can enclose the code in try..catch block
+so that if in case an error occurs raised exception should be handled by catch block
+Base class:Exception class
+Types of exceptions 
+	Checked and Unchecked
+
+	Checked Exceptions are those which system is aware of and 
+	prompts developer to handle the error that may occur
+
+
+	Unchecked Exceptions are those which system is unaware of 	and does not prompt developer to handle the error that may 	occur
+If we want some code to execute irrespective of error then we can write that code in finally block e.g. closing the connection with external resources
+
+We can have multiple catch blocks to one try block in order to handle multiple types of errors	
+
+While mentioning multiple catch blocks hierarchy of classes has to be maintained,parent exception class should be mentioned after child exception in catch block
+e.g
+//valid code
+try{
+	//some code
+}
+catch(ArithmaticException e)
+{
+	
+}
+catch(Exception e)
+{
+
+}
+
+//invalid code
+try{
+	//some code
+}
+catch(Exception e)
+{
+
+}
+catch(ArithmaticException e)
+{
+	
+}
+
+**throw keyword
+	if we want condition based error handling then throw keyword 	is used
+
+void disp()
+{
+
+		if(a)
+		{
+			throw exceptionA
+		}
+		else if(b)
+			{
+				throw exceptionB
+			}
+
+}
+PSVM()
+{
+	try{
+		d.disp()
+	}
+	catch(Exception e)
+	{
+		sop(e)
+	}
+}
+
+**throws keyword
+	if we want to mention that the given method may throw an 	exception,then we use throws keyword next to method 	definition
+	
+	void disp()throws exceptionA
+	{
+		//code to execute
+	}
+
+
+
+
+ 
+

@@ -1,0 +1,9 @@
+package com.learning.studentlistdemo;
+
+public class Students {
+
+	int id;
+	String name;
+	double marks;
+	
+}

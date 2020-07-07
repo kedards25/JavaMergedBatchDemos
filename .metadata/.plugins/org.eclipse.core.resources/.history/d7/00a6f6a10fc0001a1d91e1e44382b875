@@ -1,0 +1,25 @@
+package com.learning.treesetdemo;
+
+import java.util.*;
+
+public class TreeSetDemo {
+
+	public static void main(String[] args) {
+		Set<String> treeSet=new TreeSet<String>();
+
+		treeSet.add("One");
+		treeSet.add("Two");
+		treeSet.add("Three");
+		treeSet.add("Four");
+		treeSet.add("Five");
+		
+		Iterator<String> iterator=treeSet.iterator();
+		
+		while(iterator.hasNext())
+		{
+			System.out.println(iterator.hasNext());
+		}
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MethodLocalInnerClasses&apos; to &apos;MethodLocalInnerClassesDemo&apos;" description="Rename resource &apos;MethodLocalInnerClasses&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/MethodLocalInnerClasses" name="MethodLocalInnerClassesDemo" stamp="1592377775824" updateReferences="true"/>
+</session>

@@ -1,0 +1,29 @@
+package com.learning.collectionsdemo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class StudentListDemo {
+
+	StudentDetails st1,st2,st3,st4;
+	
+	List<StudentDetails> studList=new ArrayList();
+	
+	void createStdObj()
+	{
+		st1=new StudentDetails(101, "Sankalp", "Jogeshwari");
+		st2=new StudentDetails(102, "Amogh", "Andheri");
+		st3=new StudentDetails(103, "Devangi", "Jogeshwari");
+		st4=new StudentDetails(104, "Talha", "Ratnagiri");
+		
+	}
+	
+	void addObjects()
+	{
+		studList.add(st1);
+		studList.add(st2);
+		studList.add(st3);
+		studList.add(st4);
+		studList.add(new StudentDetails(105, "Yogesh", "Nallasopara"));
+	}
+}

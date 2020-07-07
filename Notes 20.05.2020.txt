@@ -1,0 +1,17 @@
+header files in C/C++ are referred to as packages
+every program in java imports java.lang package by default
+
+
+To execute a loop we need to have an iterator
+iterator helps to run given block of code for given no of times
+
+Iterator has to be provided with three params
+	initial value
+	condition
+	incr/decr
+
+while
+do..while
+for
+
+Array is collection of elements of same data type stored in adjecant memory locations

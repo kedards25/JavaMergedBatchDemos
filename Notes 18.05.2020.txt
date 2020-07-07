@@ -1,0 +1,19 @@
+source file->.java=>compiler->.class
+.class=>class loader->JVM
+JVM=>java API(Libraries)=>bytecode verifier and JIT(Just In Time)Compiler
+->binary/machine language specific to OS=>Hardware and OS
+
+
+Conventions and Rules
+
+decimal values:
+	float (upto 6 precisions after the decimal)
+	0.123456
+	
+	double (upto 12 precisions after the decimal)
+	0.123456789123
+
+Conditional Execution/Conditional Constructs
+
+	if condition evaluates to true then it will execute one block of code 
+	else it will execute the another block

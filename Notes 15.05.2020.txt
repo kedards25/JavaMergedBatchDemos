@@ -1,0 +1,15 @@
+Steps to compile and execute the code
+	1.Write source code and save it with <file_name>.java extension
+	2.Launch command prompt/terminal(mac)
+	3.give path of JVM using command set path="path-of-jdk till bin folder" and hit enter
+	JVM =>Java Virtual Machine		
+		JDK =>Java Development Kit
+		JRE =>Java Runtime Environment
+		
+	4.navigate to particular folder in which your source code is saved in
+		(use 'cd' command to change directory/folders and hit enter)
+	5.write javac <file_name>.java and hit enter
+	6.errors will be shown if there are any,
+	  on successful execution your .java file will get converted into .class file(bytecode)
+	7.to excecute bytecode on your OS java <file_name>
+
