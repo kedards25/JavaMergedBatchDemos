@@ -18,7 +18,7 @@ public class HashMapDemo {
 		dataMap.put(106,"Tanvi Gharte");
 		dataMap.put(104,"Tanvi Patil");
 		dataMap.put(103, null);
-		dataMap.put(null, "Sankalp Oversmart");
+		dataMap.put(null, "Sankalp");
 		dataMap.put(102, null);
 		
 		System.out.println(dataMap);
@@ -27,17 +27,17 @@ public class HashMapDemo {
 		//entrySet method returns Set interface which is enabling the 
 		//dataMap which is of type Map to be viewed as Collection(Collection-View)
 		//it will sort the data implicitly and allow us to view dataMap as Set Interface
-		System.out.println(dataMap.entrySet());
+		//System.out.println(dataMap.entrySet());
 		System.out.println();
 		
 		for(Map.Entry<Integer, String> data:dataMap.entrySet())
 		{
 			System.out.println(data.getKey()+"  "+data.getValue());
 		}
-
-		
-		System.out.println(dataMap);
-		System.out.println();
+//
+//		
+//		System.out.println(dataMap);
+//		System.out.println();
 	}
 
 }

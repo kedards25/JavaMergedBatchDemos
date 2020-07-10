@@ -18,7 +18,7 @@ public class HashTableDemo {
 		dataMap.put(106,"Tanvi Gharte");
 		dataMap.put(104,"Tanvi Patil");
 		dataMap.put(103, "Sankalp Angchekar");
-		dataMap.put(105, "Sankalp Oversmart");
+		dataMap.put(105, "Tejas Pednekar");
 		dataMap.put(102, "Amogh Haldankar");
 		
 		System.out.println(dataMap);

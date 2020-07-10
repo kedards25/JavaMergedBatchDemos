@@ -1,0 +1,33 @@
+Map Interface
+	Which is not part of collections 
+	It belongs to java.util package
+	Map works on Key-Value pair
+	Key	Value
+	101	Tanvi Varak
+	102	Tanvi Gharte
+	103	Tanvi Patil
+	
+	I should search by Id instead of name 
+Types
+	Hashmap
+		Null Keys and values allowed
+
+	TreeMap
+		null Keys are not allowed but values are
+
+	HashTable
+		Unordered collection of objects which cannot 		contain null object
+		This is Synchronized
+
+To insert and retrieve data from MAP we use put and get method
+
+
+Deque Interface
+	pronounced as deck
+	Double Ended Queue
+	Extends Queue interface
+
+Types
+	ArrayDeque
+	ArrayDeque is not synchronized
+	

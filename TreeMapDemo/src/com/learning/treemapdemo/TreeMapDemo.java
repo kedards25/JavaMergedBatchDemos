@@ -9,7 +9,7 @@ public class TreeMapDemo {
 //	Which is not part of collections 
 //	It belongs to java.util package
 //	Map works on Key-Value pair
-//  TreeMap does not allow null values as Keys and n number of null values as values
+//  TreeMap does not allow null values as Keys but allows n number of null values as values
 	public static void main(String[] args) {
 		Map<Integer, String> dataMap=new TreeMap();
 		
@@ -48,6 +48,8 @@ public class TreeMapDemo {
 		//iterating through keySet using forEach loop
 		for(int k:keySet)
 		{
+			
+			//MapObj.get(key)=>returns data mapped with given key
 			System.out.println(k+" "+dataMap.get(k));
 		}
 
