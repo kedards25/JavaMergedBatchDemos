@@ -1,0 +1,23 @@
+Benefits of Threading
+	Improved performance
+	Minimized resource usage
+	Simplified programming structure
+
+Limitations of Threading
+	Race Condition
+		Multiple threads trying to get memory access and 		finally no one gets it
+	Deadlock
+		One thread is waiting for second one to complete and 
+		second is waiting for first one to complete
+
+	Livelock
+		for(int i=10;i>0,i++)
+		{	}
+	Lock starvation
+		One thread with low priority is waiting for another 		thread to complete its work and by the time it 		finishes its work a thread with higher priority 		enters,so the thread with low priority times out
+
+Life cycle of thread
+	new(not started)	//Thread is declared but not started 
+	runnable(Started)	//Thread is running
+	not runnable		//Thread is in sleep/wait/suspended
+	dead			//Thread is no more active
