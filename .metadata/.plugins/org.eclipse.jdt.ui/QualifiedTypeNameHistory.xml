@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.learning.nestedclassesdemo.NestedClassesDemo.NestedClass"/>
-<fullyQualifiedTypeName name="com.learning.nestedclassesdemo.NestedClassesDemo"/>
-<fullyQualifiedTypeName name="MethodLocalClass"/>
-<fullyQualifiedTypeName name="com.learning.methodlocalclasses.MethodLocalInnerClassesDemo"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
-<fullyQualifiedTypeName name="org.omg.CORBA.Object"/>
-<fullyQualifiedTypeName name="com.learning.anonymousclasses.AnonmousClassesDemo"/>
-<fullyQualifiedTypeName name="com.learning.castingdemo.TypeCastingDemo"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="com.learning.castingdemo.DemoC"/>
 <fullyQualifiedTypeName name="com.learning.castingdemo.DemoP"/>
@@ -60,4 +52,12 @@
 <fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="java.util.ListIterator"/>
 <fullyQualifiedTypeName name="com.learning.comparatordemo.HDTV"/>
+<fullyQualifiedTypeName name="com.learning.threaddemo2.ThreadUsingRunnable"/>
+<fullyQualifiedTypeName name="com.learning.threaddemo.ThreadDemo"/>
+<fullyQualifiedTypeName name="com.learning.threaddemo3.ThreadUsingConstructor"/>
+<fullyQualifiedTypeName name="com.learning.threadlifecycledemo.ThreadLifeCycleDemo"/>
+<fullyQualifiedTypeName name="com.learning.isalivedemo.IsAliveDemo"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="com.learning.joindemo.JoinDemo"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>

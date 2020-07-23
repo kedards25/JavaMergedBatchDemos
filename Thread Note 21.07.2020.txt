@@ -1,0 +1,22 @@
+Whenever we have an option to extend a class or to implement an interface,always go for implementing interface because class can extend only one class but can extend multiple interfaces and a class together
+e.g.1
+class DemoP
+{
+
+}
+//we cannot extend DemoP in this case
+class ThrDemo extends Thread
+{
+
+}
+
+e.g.2
+class DemoP
+{
+
+}
+//we can extend DemoP in this case
+class ThrDemo extends DemoP implements Runnable
+{
+
+}
