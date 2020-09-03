@@ -9,7 +9,7 @@ public class VectorListDemo {
 	//The only difference between Vector class and other two i.e.
 	//LinkedList and ArrayList is that the vector list is synchronized
 	//means only one thread can access the list at a time
-	//whereas LinkedList and ArrayList are  not  synchronized.
+	//whereas LinkedList and ArrayList are not synchronized.
 	public static void main(String[] args) {
 		 List<Double> vectrLst=new Vector<Double>();
 		 
@@ -23,6 +23,8 @@ public class VectorListDemo {
 		 ListIterator<Double> iterator=vectrLst.listIterator();
 		 
 		 while (iterator.hasNext()) {
+			 //typecasting the object into double variable 
+			 //and displaying it
 			Double doubleVal = (Double) iterator.next();
 			
 			System.out.println(doubleVal);

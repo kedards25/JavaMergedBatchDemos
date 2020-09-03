@@ -14,7 +14,7 @@ public class HashSetDemo {
 		public static void main(String[] args) {
 			Set<String> hashSet=new HashSet();
 
-			//String will be sorted alphabetically
+			//String will not be sorted alphabetically
 			hashSet.add("One");
 			hashSet.add("Four");
 			hashSet.add("Three");

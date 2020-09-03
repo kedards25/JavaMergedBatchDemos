@@ -18,6 +18,8 @@ public class TreeSetDemo {
 		treeSet.add("Grass");
 		treeSet.add("Five");
 		
+		//unlike ListIterator we are using Iterator interface 
+		//to iterate
 		Iterator<String> iterator=treeSet.iterator();
 		
 		while(iterator.hasNext())

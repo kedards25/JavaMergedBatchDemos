@@ -1,0 +1,27 @@
+File IO
+File Input =>Reading
+		FileInputStream
+		BufferedInputStream
+		FileReader
+		BufferedReader
+
+File Output=>Writing
+		FileOutputStream
+		BufferedOutputStream
+		FileWriter
+		BufferedWriter
+
+File NIO
+
+Non-blocking IO
+
+In traditional File IO,if write operation is being performed then file could not be read and vice-versa,this is blocking IO
+
+Path
+Path path=paths.getPath(filePath)
+
+
+Path paths=Path.get();
+Paths path=Path.get();
+Paths path=Paths.get();
+Path path=Paths.get();
