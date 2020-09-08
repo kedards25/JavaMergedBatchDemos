@@ -10,13 +10,13 @@ public class JDBC_Demo {
 	
 	public static void main(String[] args) {		
 		try {
-			String url="jdbc:sqlserver://localhost:1433;databaseName=AdventureWorks";
+			String url="jdbc:sqlserver://localhost:1433;databaseName=TestDB";
 			String user="sa";
 			String pwd="sasa";
 			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 			Connection con=DriverManager.getConnection(url, user, pwd);
 			Statement st=con.createStatement();
-			String query="select * from humanresources.employee";
+			String query="select * from students";
 			ResultSet rs= st.executeQuery(query);
 			while(rs.next())
 			{
